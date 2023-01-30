@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawad Web Page</title>
+    <link rel="icon" type="image/jawad-icon" href="elect.jpg">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="alert alert-success alert-dismissible text-success">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
+      </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="logo.jpg" alt="brothers" style="width:40px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Images</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Information</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
+                  <li><a class="dropdown-item" href="#">Laptops</a></li>
+                  <li><a class="dropdown-item" href="#">Tablet</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1 style="text-align: center; margin-top: 50px;" class="text-info"><b>Welcome to Jawad Web Page</b></h1>
+    <img src="phone.jpg" class="rounded float-start image-fluid " style="width: 50%; margin-top: 150px;" alt="Cinque Terre">
+    <br>
+    <form style="float: right; border-style: double; width: 400px; height: 350px; margin-top: 150px; margin-right: 150px;" class="container was-validated">
+        <div class="mb-3 mt-2">
+          <label for="email" class="form-label required" style="font-size: x-large; "><b>Web Page</b></label>
+          <input type="email" class="form-control" id="email" placeholder="Email or Phone Number" name="email">
+        </div>
+        <div class="mb-3">
+          <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd">
+        </div>
+        <div class="form-check mb-3">
+          <label class="form-check-label required">
+            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+        <h5>Forget Password</h5>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Create an Account
+          </button>
+          
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Sign UP</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <input type="text" id="input" placeholder="First name">
+                    <input type="text" placeholder="Last name"><br>
+                    <br>
+                    <input type="text" placeholder="Mobile number or Email" style="width:374px;"><br>
+                    <br>
+                    <input type="text" placeholder="Full Name" style="width:374px;"><br>
+                    <br>
+                    <input type="text" placeholder="Username" style="width:374px;"><br>
+                    <br>
+                    <input type="text" placeholder="New Password" style="width: 374px;"><br>
+                    <br>
+                    <h6 class="modal-item">Birthday</h6>
+                    <input type="date" name="birthday" id="bd"><br>
+                    <h6 class="modal-item">Gender</h6>
+
+                    <input type="radio" id="radio1" name="optradio" value="option1" checked>Male
+  <label class="form-check-label" for="radio1"></label>
+
+  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Female
+  <label class="form-check-label" for="radio2"></label>
+
+  <input type="radio" class="form-check-input" disabled>Custom
+  <label class="form-check-label"></label>
+  <br>
+  <br>
+  <p style="text-align: center;">People who use our service may have uploaded your contact information to Web Page.</p>
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+    </form>
+   
+</body>
+</html>
